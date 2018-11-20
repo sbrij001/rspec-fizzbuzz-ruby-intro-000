@@ -1,17 +1,17 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 
-x = 3 
+x = 3
 def fizzbuzz(x)
 
   if x % 3 == 0
-    puts "Fizz"
+    print "Fizz"
   elsif  x % 5 == 0
-    puts "Buzz"
+    print "Buzz"
   elsif (x % 3 == 0 && x % 5 == 0)
-    puts "FizzBuzz"
+    print "FizzBuzz"
   else
-    puts nil
+    print nil
   end
 
 end

@@ -5,9 +5,9 @@ x = 3
 def fizzbuzz(x)
 
   if x % 3 == 0
-    print "Fizz"
+    "Fizz"
   else
-    print nil
+    nil
   end
 
 end
